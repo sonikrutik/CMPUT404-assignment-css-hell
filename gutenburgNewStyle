@@ -1,0 +1,64 @@
+
+body { margin-left: 2.5%;
+       margin-right: 2.5%;
+       text-align: justify; 
+        /*background-image: url(https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/pdfeminine1-20c-nap-job598.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=a0d93e83be32718e12f2e8b767b59c0b);
+        */background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url("images/cover.jpg");
+        opacity: 100%;
+border-style: outset;
+    border-color: brown;
+    padding: 20px}
+h1, h2, h3, h4, h5 {text-align: center; font-style: normal; font-family: Garamond, serif; font-weight:
+bolder; line-height: 1.5; margin-top: .5em; margin-bottom: .5em;
+}
+
+h1 {font-size: 400%;
+    margin-top: 0.6em;
+    margin-bottom: 0.6em;
+    letter-spacing: 0.16em;
+    word-spacing: 0em;
+    text-indent: 0em;}
+h2 {font-size: 150%; margin-top: 2em; margin-bottom: 1em;}
+h3 {font-size: 130%; margin-top: 1em;}
+h4 {font-size: 120%;}
+h5 {font-size: 110%;}
+
+.no-break {page-break-before: avoid;} /* for epubs */
+
+div.chapter {page-break-before: always; margin-top: 4em;}
+
+hr {width: 80%; margin-top: 4em; margin-bottom: 0em;}
+
+p {text-indent: 1em;
+   margin-top: 0.95em;
+   margin-bottom: 0.25em; 
+    font-family: Garamond, serif;
+}
+
+
+div.fig { display:block;
+          margin:0 auto;
+          text-align:center;
+          margin-top: 1em;
+          margin-bottom: 1em;}
+.fig{
+      float: unset;
+  width: 30%;
+  text-align: center;
+  font-style: italic;
+  font-size: medium;
+  text-indent: 0;
+  border: thin silver solid;
+  margin: 0.5em;
+  padding: 0.5em;
+    background-color: beige
+}
+a:link {color:royalblue; text-decoration:auto}
+a:visited {color:darkblue; text-decoration:none}
+a:hover {color:brown}
+
+img {border: 8px solid black;
+    opacity: 90%
+}
